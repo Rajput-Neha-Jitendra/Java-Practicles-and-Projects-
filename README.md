@@ -6,17 +6,17 @@ This repo contains all my Java practical work from **BCA** and **MCA**, along wi
 
 --
 ## 📁 Folder Structure
-Java-Practicals/
+-Java-Practicals/
 ├── BCA-JAVA-PRACTICLES/
-│ ├──
-│ ├── 
-│ └── 
-│
+   ├──program_name.java
+
+
 ├── MCA-JAVA-PRACTICALS/
-│ ├──
-│
+  ├──MCA-412 Lab on Java Programming Assignments.pdf
+
+
 └── Java.dox/
-├── java programs with output snapshot 
+  ├── java programs with output snapshot 
 
 
 ---
