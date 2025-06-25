@@ -6,7 +6,7 @@ This repo contains all my Java practical work from **BCA** and **MCA**, along wi
 
 --
 ## 📁 Folder Structure
--Java-Practicals/
+-Java-Practicals and projects/
 ├── BCA-JAVA-PRACTICLES/
    ├──program_name.java
 
@@ -18,6 +18,8 @@ This repo contains all my Java practical work from **BCA** and **MCA**, along wi
 └── Java.dox/
   ├── java programs with output snapshot 
 
+├──JAVA-Projecsts/
+  ├──SwapCurrency 
 
 ---
 
