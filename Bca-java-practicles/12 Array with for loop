@@ -1,0 +1,12 @@
+//Array elements access using Loops
+public class Main{
+
+     public static void main(String []args){
+         int[] a={ 1,3,5,7,9 };
+        System.out.println("Access Array Elements with Loop");
+        for(int i=0;i<a.length;i++)
+        {
+            System.out.println(a[i]);
+        }
+     }
+}

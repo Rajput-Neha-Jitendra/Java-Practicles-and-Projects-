@@ -1,0 +1,23 @@
+// super Keyword 
+class Super
+{
+    void msg()
+    {
+        System.out.println("Namastey India");
+    }
+}
+class local extends Super
+{
+    void msg()
+    {
+        super.msg();
+        System.out.println("Namskar Maharashtra");
+    }
+}
+public class HelloWorld{
+
+     public static void main(String []args){
+        local ob= new local();
+              ob.msg();
+     }
+}

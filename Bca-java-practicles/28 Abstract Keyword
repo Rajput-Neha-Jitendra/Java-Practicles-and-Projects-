@@ -1,0 +1,35 @@
+//abstract method in abstract class
+import java.util.Scanner;
+abstract class check
+{    
+    int n;
+	 Scanner sc=new Scanner(System.in);
+	void read()
+	{
+		System.out.println(“\n\t\tCheck Number is Even or Odd”);
+		System.out.print(“\nEnter a Number : “);
+        n=sc.nextInt();
+		}
+   public abstract void show();
+}
+class EvenOdd extends check
+{
+	public void show()
+	{
+	
+		if(n%2==0)
+		{
+		 System.out.println(“\t\tNumber is Even”);
+		}
+		else{
+			System.out.println(“\t\tNumber is Odd”);
+		}
+		}
+}   
+ class Main {
+	public static void main(String[] args) {
+	EvenOdd EO=new EvenOdd();
+	        EO.read();
+	        EO.show();	
+	}
+}

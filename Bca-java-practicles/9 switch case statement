@@ -1,0 +1,58 @@
+// Calculator in java with switch-case statement using class & object 
+import java.util.Scanner;
+class Calculator
+{    
+	  int a,b,c,ch;
+ 	Scanner sc=new Scanner(System.in);
+ 	Voidvoid rules()
+ 	{
+ 	  System.out.println(“                  _____  CALCULATOR  _____                \n “);	
+ 	   System.out.println(“\n\tEnter Your Choice Number for Calculation\t\n”);
+ 	 System.out.println(“1 : Addition \n”);
+ 	 System.out.println(“2 : Substraction\n”); 
+ 	 System.out.println(“3 : Multiplication\n “);
+ 	 System.out.println(“4 : Division\n”);
+ 	 System.out.println(“5 : Modulation\n”); 
+ 	}
+ 	void read()
+ 	{	
+ 	System.out.print(“Enter 1 Number : “);
+ 	a=sc.nextInt();
+ 	System.out.print(“Enter 2 Number : “);
+ 	b=sc.nextInt();		
+ 	}
+ 	void show()
+ 	{
+ 	 System.out.print(“\nEnter your Choice : “);      ch=sc.nextInt();     
+ 	 switch(ch)
+ 	 {
+ 	 	case 1: c=a+b;
+ 	 	System.out.println(“\nAddition : “+a+”+”+b+” = “+c);
+ 	 	break;
+ 	 	case 2: c=a-b;
+ 	 	System.out.println(“\nSubstraction : “+a+”-“+b+” = “+c);
+ 	 	break;
+         case 3: c=a*b;
+ 	 	System.out.println(“\nMultiplication : “+a+”*”+b+” = “+c);
+ 	 	break;
+ 	 	case 4: c=a/b;
+ 	 	System.out.println(“\nDivision : “+a+”/”+b+” = “+c);
+ 	 	break;
+ 	 	case 5:c=a%b;
+ 	 	System.out.println(“\nModulation : “+a+”%”+b+” = “+c);
+ 	 	Breakbreak;
+ 	 	Defaultdefault:
+ 	 	System.out.println(“\nSorry ! Your Choise is Invalid”); 		 	
+ 	 }
+ 	}
+}
+Classclass Main
+{
+  Publicpublic static void main(String args[])
+  {
+     Calculator cl=new   calculator();
+     cl.rules();
+     cl.read();
+     cl.show();   	
+   }			 
+}

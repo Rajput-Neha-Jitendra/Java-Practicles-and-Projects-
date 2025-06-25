@@ -1,0 +1,24 @@
+  //java program to read 2 numbers in read function and display it using show function
+import java.util.Scanner;
+Class Demo {
+int a, b;
+	Scanner sc = new Scanner(System.in);
+	void read() {
+		System.out.println(“Enter 1 Number”);
+		a= sc.nextInt();
+		System.out.println(“Enter 2 Number”);
+		b = sc.nextInt();
+	}
+	void show() {
+		System.out.println(“Your Enter Number:”);
+		System.out.println(“1 Number :” + a);
+		System.out.println(“2 Number :” +   b);
+	}
+}
+class Main {
+	public static void main(String[] args) {
+		Demo d1 = new demo();
+		d1.read();
+		d1.show();
+	}
+}

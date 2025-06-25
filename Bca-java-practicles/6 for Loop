@@ -1,0 +1,25 @@
+//Program to display numbers n number upto n time  on your Choice
+import java.util.Scanner;
+class Wloop
+{
+	void get()
+	{
+		Scanner sc=new Scanner(System.in);
+           System.out.println(“			Hey its While Loop\n\n	 Display n Number upto n time on your Chioce”);
+           System.out.print(“\nEnter any Number : “);
+           int i = sc.nextInt();
+         System.out.print(“Enter range to print : “);
+      int n = sc.nextInt();
+    while(i <= n) {
+      System.out.println(i);
+      i++;
+    }
+}
+public class Main {
+	public  void main(String] args [])
+  {
+
+         Wloop wl=new Wloop();
+             wl.get();
+  }
+}

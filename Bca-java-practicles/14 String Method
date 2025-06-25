@@ -1,0 +1,25 @@
+//String Method in Java 
+class Main {
+  public static void main(String[] args) {
+    // Declaration and Creation Strings
+    System.out.println("| String Method |");
+    String str1 = "Java";
+    String str2 = "Programming";
+    // print strings
+    System.out.println("String 1: "+ str1);  
+    System.out.println("String 2: "+ str2);  
+    //concat two string
+    String str3 = str1.concat(str2) ;
+    System.out.println("Joined String : "+str3);
+    //length of joined string 
+    System.out.println("Length of Joined String String :"+str3.length());
+    //compare two string
+    boolean cmp=str1.equals(str2);
+    System.out.println(cmp+" : String1 -"+str1+" is not equals to String2 -"+str2);
+   //charat return character at index 0
+    System.out.println("Character at Index 0 in String 1 Java"+str1.charAt(0));
+    //indexOf return index of character n
+    System.out.println("Index of Character n in String2 Programming "+str2.indexOf('n'));
+    
+  }
+}

@@ -1,0 +1,8 @@
+//Print Messages in Java with 3 ways
+ class Main {
+	public static void main(String[] args) {
+		System.out.println(“\t\tHello, Java Learners”);//break line and occupy full line
+		System.out.print(“\t\tWelcome to our Java Programming”);//print in same line
+		System.out.print(“\n\t\tLet’s get Started ! “);//break the Line
+	}
+} 

@@ -1,0 +1,22 @@
+//Method Overriding
+class rpol
+{
+	void print()
+	{
+		System.out.println("Base class Method");
+	}
+}
+class dpol extends rpol
+{
+	void print()
+	{
+		
+		System.out.println("\n\t\tDerived class Method");
+	}
+}
+public class Main {
+	public static void main(String[] args) {
+		dpol ob=new dpol();
+		   ob.print();
+	}
+}

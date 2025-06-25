@@ -1,0 +1,10 @@
+//Default Constructor 
+class DC{
+    DC()
+    {
+        System.out.println("I am Called Automatically\n Because\nI am Constructor");
+    }
+  public static void main(String[] args) {
+      DC ob =new DC();
+  }
+}

@@ -1,0 +1,10 @@
+class Main
+{
+     static String name="Java  developer";//static variable
+     public static void main(String args[])
+     {  
+         System.out.println(name+"James Gosling");
+         System.out.println(name+"Mike Sheridan");   
+         System.out.println(name+"Patrick Naughton");
+     }
+}.............static variable

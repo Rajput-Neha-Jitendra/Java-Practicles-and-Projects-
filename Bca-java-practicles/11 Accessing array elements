@@ -1,0 +1,15 @@
+class Main {
+ public static void main(String[] args) {
+  
+     //array creation 
+   int[] even = {2, 4, 6, 8, 10};
+
+   // accessing each elements of array 
+   System.out.println("|| Accessing Elements of Array ||");
+   System.out.println("First Element: " + even[0]);
+   System.out.println("Second Element: " + even[1]);
+   System.out.println("Third Element: " + even[2]);
+   System.out.println("Fourth Element: " + even[3]);
+   System.out.println("Fifth Element: " + even[4]);
+ }
+}

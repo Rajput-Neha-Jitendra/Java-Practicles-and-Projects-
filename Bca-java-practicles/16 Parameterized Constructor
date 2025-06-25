@@ -1,0 +1,14 @@
+//Parameterized Constructor 
+class PC{
+  String name;
+  PC(String Con) {
+    name = Con;
+    System.out.println(name + "   Constructor ");
+  }
+  public static void main(String[] args) {
+     System.out.println("  Types of Constructor   ");
+    PC ob1 = new PC("1 Default");
+    PC ob2 = new PC("2 Parameterized");
+    PC ob3 = new PC("3 Copy");
+  }
+}

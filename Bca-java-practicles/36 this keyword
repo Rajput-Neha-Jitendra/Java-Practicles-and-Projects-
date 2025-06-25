@@ -1,0 +1,18 @@
+//this keyword 
+public class A
+{
+    String a;
+    A(String a)
+    {
+        this.a=a;
+    }
+    void show()
+    {
+        System.out.println(a);
+    }
+    public static void main (String args[])
+    {
+        A ob= new A("This Keyword");
+         ob.show();
+    }
+}

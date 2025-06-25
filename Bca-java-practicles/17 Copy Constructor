@@ -1,0 +1,28 @@
+//Copy Constructor 
+class CC  
+{  
+int a;  
+String poly;  
+CC(int b, String many)  
+{   
+a = b;  
+poly = many;  
+} 
+CC(CC obj)  
+{  
+a = obj.a;  
+poly = obj.poly;  
+}  
+void show()  
+{  
+System.out.println("Types of Constructor : "+a); 
+System.out.println("Constructor can be "+poly);
+} 
+public static void main(String args[])  
+{  
+CC ob1 = new CC(3, "Overloaded"); 
+   ob1.show();
+CC ob2 = new CC(ob1);
+   ob2.show();
+}  
+}  

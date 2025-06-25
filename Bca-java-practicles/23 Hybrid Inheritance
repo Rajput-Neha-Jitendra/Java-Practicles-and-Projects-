@@ -1,0 +1,44 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+
+/* Online Java Compiler and Editor */
+ class A {
+    void showA()
+    {
+    System.out.println("Asia continent");
+    }
+}
+//Single Inheritance 
+class B extends A {
+    void showB()
+    {
+    System.out.println("Country :  India");
+    }
+}
+//Multiple Inheritance 
+class C extends B {
+    void showC()
+    {
+    System.out.println("State : Maharashtra");
+    }
+}
+class D extends B {
+    void showD()
+    {
+    System.out.println("State : Gujarat");
+    }
+    }
+class Main {
+	public static void main(String[] args) {
+	    C obC = new C();
+	      obC.showA();
+	      obC.showB();
+	      obC.showC();
+	      
+        D obD = new D();
+          obD.showA();
+	      obD.showB();
+	      obD.showD();
+	}
+}

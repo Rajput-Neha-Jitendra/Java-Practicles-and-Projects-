@@ -1,0 +1,49 @@
+//static method in main method 
+class A
+{
+    static void demo()//static Method 
+    {
+        System.out.println("I am static Method");
+    }
+    public static void main(String args[])
+    {
+        demo();//static method called without creating object
+    }
+}
+_________________________________
+
+//static method called by creating object 
+class A
+{
+     
+    static void org()
+    {
+        System.out.pritln("Colleges Under SES")
+        System.out.println("Shirpur Education Society's");
+    }
+    void clg1()
+    {
+        System.out.println("R. C. Patel Institute Of Pharmaceutical Education And Research , Shirpur");
+    }
+    void clg2()
+    {
+        System.out.println("R. C. Patel Institute of Technology, Shirpur");
+    }
+    void clg3()
+    {
+        System.out.println("R. C. Patel Polytechnic , Shirpur");
+    }
+}
+class Main
+{
+    public static void main(String args[])
+    {
+    A ob=new A();
+    A.org();
+    ob.clg1();
+    A.org();
+    ob.clg2();
+    A.org();
+    ob.clg3();
+    }
+}

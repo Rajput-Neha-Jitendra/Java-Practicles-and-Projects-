@@ -1,0 +1,23 @@
+//Constructor Overloading 
+public class CO
+{
+    CO()
+    {
+    System.out.println("I am CONSTRUCTOR");
+    }
+  CO(int a)
+    {
+     System.out.println("I am in Type : "+a);   
+    }
+  CO(String tp1, String tp2)
+    {
+    System.out.println("I am Called "+tp1+" , Without Creating"+tp2);
+    }
+    public static void main (String args[])
+    {
+   CO ob1 = new CO();
+   CO ob2 = new CO(3);
+   CO ob3 = new CO("Automatically","Object");
+    }
+
+}

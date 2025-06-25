@@ -1,0 +1,36 @@
+//interface extends in interface and interface implements in class
+import java.util.Scanner;
+interface get
+{  
+	vread();
+}
+interface put extends get
+{ 
+    void print();
+}
+class table implements put
+{
+	 Scanner sc=new Scanner(System.in);
+	 int a;
+	public void read()
+	{
+		System.out.println(“\n\t\t\t  Table\n”);
+		System.out.print(“Enter Number : “);
+		 a=sc.nextInt();
+	}
+	public void print()
+	{
+		System.out.println(“\nTable of :”+a);
+		fint i=1;i<=10;i++)
+		{
+		System.out.println(“\t     “+a*i);
+		}
+	}
+}
+public class Main {
+	public static void main(String[] args) {
+	   table t1=new table();
+	           t1.read();
+	           t1.print();
+	}
+}

@@ -1,0 +1,32 @@
+class Country
+{
+	void name()
+	{
+		 System.out.println("\n\t\t  Multilevel  Inheritance");
+		System.out.println("\n\t\t\tINDIA");
+			System.out.println("\t\t\t ||");
+	}
+}
+class State extends Country
+{
+	void name1()
+	{
+		System.out.println("\t\t     MAHARASHTRA");
+			System.out.println("\t\t\t ||");
+	}
+}
+class City extends  State
+{
+	void name2()
+	{
+		System.out.println("\t\t\tDHULE");
+	}
+}
+public class Main {
+	public static void main(String[] args) {
+		City nm=new City();
+		nm.name();
+		nm.name1();
+		nm.name2();
+	}
+}

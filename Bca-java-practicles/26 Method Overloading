@@ -1,0 +1,28 @@
+
+//Method Overloading
+class movel
+{
+    int a,b,c;
+	void demo(int x ,int y)
+	{
+	    a=x;
+	    b=y;
+	    
+	}
+	void demo(int z)
+	{
+		c=z;
+	}
+	void demo()
+	{
+	    System.out.println("Multiplication : " +a*b*c);
+	}
+}
+public class Main {
+	public static void main(String[] args) {
+		movel ob=new movel();
+		   ob.demo(5,6);
+		   ob.demo(5);
+		   ob.demo();
+	}
+}

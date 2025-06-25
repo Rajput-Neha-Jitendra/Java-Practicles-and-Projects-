@@ -1,0 +1,20 @@
+//Inner Class 
+class Outer{
+    void showO(){
+      System.out.println("Outer class Method ");
+      }
+	class Inner{
+
+		public void showI(){
+			System.out.println("\n\t\t\t Inner class method");
+		}
+	}
+}
+public class Main{
+	public static void main(String []args){
+	    	Outer obO = new Outer();
+		      obO.showO();
+		Outer.Inner obI = new Outer(). new Inner();
+		obI.showI();
+	}
+}

@@ -1,0 +1,22 @@
+//final class
+Final class A
+{
+	Void demo1()
+	{
+		System.out.println(“This is Method of final class”);
+    }
+}
+class B  extends A
+{
+     voiid demo2()
+     {
+		System.out.println(“This is Dirived class Method”);
+     }
+}
+public class Main  void main(String[] args) {
+    {
+	       B  Ob=new B();
+	       Ob.demo1();
+	       Ob.demo2();
+	}
+}

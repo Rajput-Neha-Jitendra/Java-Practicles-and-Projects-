@@ -1,0 +1,29 @@
+//if-else-if statement using class and object
+import java.util.Scanner;
+class Mark {
+	Int marks;
+	Scanner sc = new Scanner(System.in);
+	void read() {
+		System.out.println(“\n	Welcome...Here you Check your Marks Destination\n”);
+		System.out.print(“Enter Your Marks : “);
+		Marks = sc.nextInt();
+	}
+	void show() {
+		if (marks >= 60 && marks <= 100) {
+			System.out.println(“ \n Hey Great you Secured : First Class Destination.”);
+		} else if (marks >= 45 && marks <= 60) {
+			System.out.println(“\n Hey Very Good you Secured : Second Class Destination.”);
+		} else if (marks >= 33 && marks <= 45) {
+			System.out.println(“\n Hey  Good you Secured : Third Class Destination.”);
+		} else {
+			System.out.println(“\nHey Sorry!.. you are Fell.”);
+		}
+	}
+}
+public class Main {
+	public  void main(String] args []) {
+		Mark mk = new Mark();
+		mk.read();
+		mk.show();
+	}
+}

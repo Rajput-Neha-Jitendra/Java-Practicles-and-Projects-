@@ -1,0 +1,26 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+/* Online Java Compiler and Editor */
+interface Charge{
+  public void show1();
+}
+
+class  Data{
+  String Divice = "Charger";
+   void show2() {
+    System.out.println(Divice+ " can also be used for  transferring Data Quickly.");
+  }
+}
+class Charging extends Data implements Charge {
+  public void show1() {
+    System.out.println(Divice + " can be used for Charging  Computable Android Device");
+  }
+  public static void main(String[] args) {
+ System.out.println("|| Charger ||");
+    Charging use= new Charging ();
+    use.show2();
+    use.show1();
+ 
+  }
+
+}

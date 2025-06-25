@@ -1,0 +1,37 @@
+//Human Face in Applet 
+import java.applet.Applet;
+import java.awt.*;
+public class Face extends Applet
+{
+ public void paint(Graphics g)
+ {
+   g.drawOval(100,40,150,150);
+   g.setColor(Color.yellow);
+   g fillOval(100,40,150,150);
+   
+   g.drawOval(120,80,40,20);
+   g.setColor(Color.white);
+   g fillOval(120,80,40,20);
+   
+   g.drawOval(180,80,40,20);
+   g.setColor(Color.white);
+   g fillOval(180,80,40,20);
+   
+   g.drawOval(190,89,20,10);
+   g.setColor(Color.black);
+   g fillOval(190,89,20,10);
+   
+   g.drawOval(130,89,20,10);
+   g.setColor(Color.black);
+   g fillOval(130,89,20,10);
+   
+   g.drawOval(170,110,1,40);
+   g.setColor(Color.black);
+   g fillOval(170,110,1,40);
+   
+   g.drawOval(140,140,60,40,180);
+   g.setColor(Color.red);
+   g fillOval(140,140,60,40,180);
+ 
+  }
+}

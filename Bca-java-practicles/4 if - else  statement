@@ -1,0 +1,35 @@
+//If Statement using class and object
+import java.util.Scanner;
+Class condition
+{
+	int pwd;
+	Scanner sc=new Scanner(System.in);
+void read()
+	{
+	  System.out.print(“Enter Password : “);
+	  pwd=sc.nextInt();
+	  //Password : 13
+	}
+	void show()
+	{
+   if(pwd==13)
+		{
+			System.out.println(“\n   		  Welcome to my Portfolio     \n”);
+			System.out.println(“Name : Rajput Neha Jitendra\n”);
+			System.out.println(“Student: SYBCA-B	 Roll No : 144\n”);
+			System.out.println(“College :RCPET’s IMRD College Shirpur\n”);
+			System.out.println(“Techie : Intested in todays IT Industry\n”);
+		}
+		else
+		{
+			System.out.println(“\nSorry ! ....Wrong Password\n\nYou can’t see my Portfolio”);
+		}
+	}
+}
+ class Main {
+	public static void main(String[] args) {
+     	condition co=new condition();
+     	co.read();
+     	co.show();	
+}
+}

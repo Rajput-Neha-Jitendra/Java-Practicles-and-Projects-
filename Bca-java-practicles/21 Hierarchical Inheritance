@@ -1,0 +1,33 @@
+//Hierachical Inheritance
+class State
+{
+	void show()
+	{
+	    System.out.println("\n\t\tWelcome to Our Maharashtra");
+  }
+}
+class City1 extends State
+{
+	void show1()
+	{
+	    System.out.println("\t\t  Nagpur :  Orange City\n ");
+  }
+}
+class City2 extends State
+{
+	void show2()
+	{
+	    System.out.println("\t\t  Nashik : Wine City");
+  }
+}
+public class Main {
+	public static void main(String[] args) {
+		City1 nm1=new City1();
+		  nm1.show();
+		  nm1.show1();
+		  
+ 	City2 nm2=new City2();
+		  nm2.show();
+		  nm2.show2();		  		  
+	}
+}

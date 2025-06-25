@@ -1,0 +1,26 @@
+1  Single Inheritance 
+//Single Inheritance
+class Base 
+{ 
+public void M1() 
+  {
+  System.out.println(“\n\t\t\tSingle Inheritance\n”);
+System.out.println(“\tBase Class Method\n”); 
+  } 
+} 
+class Derived extends Base 
+{ 
+public void M2() 
+  { 
+System.out.println(“\tDirived Class Method”); 
+  } 
+} 
+class Test 
+{ 
+public static void main(String[] args) 
+  { 
+Derived d = new Derived(); 
+d.M1(); 
+d.M2(); 
+  } 
+}

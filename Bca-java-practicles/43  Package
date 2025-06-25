@@ -1,0 +1,29 @@
+/*Instructions : 
+1. To create a package, use the package keyword.
+2. Create a Directory of Mypackage name
+3. Save the file as First.java , inside Mypackage Directory 
+4. compile First.java */
+//Package Creation
+public class First
+{
+    public void show(String s)
+    {        
+        System.out.println("Hey , I am from Mypackage......");        
+    }
+}
+___________________________________________
+
+/*Instructions: 
+1. import package - Mypackage in program with class name
+   import Mypackage.First;
+2. Creat object of class First in Main class
+3. Compile and Run : Main.java*/
+
+//import  Package 
+import Mypackage.First;
+public class Main{
+     public static void main(String []args){
+        Mypackage ob = new Mypackage();
+        ob.show();
+     }
+}

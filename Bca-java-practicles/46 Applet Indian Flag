@@ -1,0 +1,20 @@
+import java.awt.*;
+import java.applet.*;
+public class Flag extends Applet {
+ public void paint(Graphics g) {
+  g.setColor(Color.orange);
+  g.fillRect(20,10,270,30);
+  g.setColor(Color.white);
+  g.fillRect(20,40,270,30);
+  g.setColor(Color.green);
+  g.fillRect(20,70,270,30);
+  g.setColor(Color.blue);
+  g.drawOval(135,42,25,25);
+  g.drawLine(148,42,148,67);
+  g.drawLine(136,54,161,54);
+  g.drawLine(140,46,156,62);
+  g.drawLine(154,46,140,64);
+  g.setColor(Color.black);
+  g.fillRect(15,10,5,200);
+ }
+}

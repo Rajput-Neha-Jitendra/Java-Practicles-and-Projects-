@@ -1,0 +1,16 @@
+ // String index out of bounds Exception
+
+class StringIndexOutOfBound_Demo
+{
+    public static void main(String args[])
+    {
+        try {
+            String a = "Exception "; // length is 22
+            char c = a.charAt(10); // accessing 25th element
+            System.out.println(c);
+        }
+        catch(StringIndexOutOfBoundsException e) {
+            System.out.println("Oooops , String Index is Out Of Bounds ");
+        }
+    }
+}

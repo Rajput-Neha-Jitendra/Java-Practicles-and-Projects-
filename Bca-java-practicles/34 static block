@@ -1,0 +1,30 @@
+
+//static block called without object in main method
+class Main
+{
+     //static block
+    static{
+      System.out.println("\n\t\t\tIts Static Block");
+    }
+   public static void main(String args[])
+   { 
+	   System.out.print("\n\t\t\tIts Main Method");
+   }
+}
+__________________________________________
+
+//static block called by object 
+class A
+{
+     //static block
+    static{
+      System.out.println("\n\t\t\tIts Static Block");
+    }
+}
+class Main{
+   public static void main(String args[])
+   { 
+       A ob=new A();//Static block of A class called
+	   System.out.print("\n\t\t\tIts Main Method");
+   }
+}

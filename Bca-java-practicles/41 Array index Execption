@@ -1,0 +1,14 @@
+//Array index out of bounds Execption 
+public class  Main
+{
+    public static void main(String args[])
+    {
+        try{
+            int a[] = {2,4,6,8,10};
+            System.out.println(a[5]);
+        }
+        catch(ArrayIndexOutOfBoundsException e){
+            System.out.println ("Oooops , Array Index is Out Of Bounds");
+        }
+    }
+}

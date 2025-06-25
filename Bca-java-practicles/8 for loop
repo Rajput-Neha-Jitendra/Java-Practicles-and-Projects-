@@ -1,0 +1,23 @@
+//for-loop with class -object
+import java.util.Scanner;
+class Floop {
+int a, i;
+Scanner sc = new Scanner(System.in);
+void read() {
+System.out.println(“		Hey Welcome!__Lets ra fun\n	Enter any Number..and..get table of that Number...”);
+System.out.print(“\nEnter a Number : “);
+a = sc.nextInt();
+}
+void show() {
+if(ii = 1; i <= 10; i++) {
+System.out.println(a * i);
+}
+}
+}
+ class Main {
+public static void main(String[] args) {
+Floop fl = new Floop();
+fl.read();
+fl.show();
+}
+}

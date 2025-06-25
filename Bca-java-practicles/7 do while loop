@@ -1,0 +1,24 @@
+//do-while loop with Class and Object
+import java.util.Scanner;
+  class Dwhile{
+ 	void demo()
+ 	{
+ 		 Scanner sc=new Scanner(System.in);
+ 		System.out.println(“		Enter any Number between 1 to 20\n\n 		Get Counting of it upto 20”);
+ 		System.out.print(“\nEnter Number : “);
+ 		int a=sc.nextInt();
+ 		do
+ 		{
+ 			System.out.println(a);
+ 		     a++;
+ 		}
+ 		while(a<=20);		
+   }
+  }
+ class Main{
+ 	public static void main(String args[])
+ 	{
+ 		dwhile d=new dwhile();
+ 		d.demo();
+ 	}
+ }

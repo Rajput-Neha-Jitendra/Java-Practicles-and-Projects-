@@ -1,0 +1,10 @@
+//final variable 
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("a is final variable  it stop the value change ");
+		final int a=10;
+		System.out.println("value of a : "+a);
+		int a=5;
+		System.out.println("value of a : "+a);
+	}
+}

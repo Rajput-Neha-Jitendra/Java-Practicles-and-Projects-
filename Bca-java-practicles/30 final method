@@ -1,0 +1,23 @@
+//final method
+class A
+{
+             final void display()
+	{
+		System.out.println(“its final method”);
+    }
+}
+class B  extends A
+{
+     void display()
+     {
+		System.out.println(“its Method”);
+     }
+}
+public class Main
+ {
+	public static void main(String[] args) 
+              {
+                          B ob=new B();
+	            ob.display();
+	}
+}
