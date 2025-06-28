@@ -1,12 +1,11 @@
-# 📊 Number Master – Java GUI App
+# 📊 NumberChecker – Java GUI App
 
 A beautiful and easy-to-use Java Swing application that checks properties of a number such as:
-
+- ✅ Even / Odd
 - ✅ Armstrong
 - ✅ Prime
-- ✅ Even / Odd
-- ✅ Factorial
 - ✅ Palindrome
+- ✅ Factorial
 - ✅ Check All (summary)
 
 ---
@@ -21,12 +20,14 @@ A beautiful and easy-to-use Java Swing application that checks properties of a n
 
 ---
 
-## 📁 Project Structure
-NumberChecker/<br>
-├── NumberG.java            # GUI file <br>
-└── NumberPK/
-    └── NumberPk.java     # package class <br>
-├── README.md              # Project info
+## 📁 Project Structure<br>
+NumberMasterProject<br>
+├── NumberG.java         → GUI file (main window)     
+└──📁NumberPK/<br>
+    &nbsp;&nbsp;&nbsp;└── NumberPk.java   → Logic class with number methods<br>
+├── README.md           → Project description<br>
+
+
 ---
 
 ## 🚀 How to Run
@@ -40,12 +41,8 @@ NumberChecker/<br>
 
 ## 👩‍💻 Author
 
-**Neha J Rajput**  
-MCA Student Project
-
-
-
-
+**Neha Rajput**  
+BCA Student Project
 
 
 
