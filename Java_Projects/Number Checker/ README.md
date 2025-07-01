@@ -26,7 +26,7 @@ NumberMasterProject<br>
 ---
 
 ## 🖼️ Project Screenshot
-![Java GUI Screenshot]()
+![Java GUI Screenshot](https://github.com/Rajput-Neha-Jitendra/Java-Practicles-and-Projects-/blob/main/Java_Projects/Number%20Checker/NumberChecker.png)
 
 ## 🚀 How to Run
 1. Open this project in any Java IDE
